@@ -15,6 +15,7 @@ public class SimpleAdder
 			i1 = read.nextInt();
 			System.out.println("I got " + i1 + " now eneter the second term");
 			i2 = read.nextInt();
+			// pause before next lines
 			System.out.println("the sum of " + i1 + " and " + i2 + " = " + i1 + i2);
 			int sum = i1 + i2;
 			System.out.println("the sum of " + i1 + " and " + i2 + " = " + sum);
@@ -23,6 +24,7 @@ public class SimpleAdder
 		{
 			System.out.println(ex.getMessage());
 		}
+		read.close();
 		return;
 	}
 }
